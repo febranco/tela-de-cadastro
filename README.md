@@ -4,6 +4,9 @@
 Este projeto é um CRUD (Create, Read, Update, Delete) simples para gerenciar contatos, desenvolvido como atividade prática para estudar JavaScript, jQuery, AJAX, HTML e CSS.
 O foco foi compreender como realizar operações assíncronas no front-end e manipular a DOM de forma dinâmica.
 
+
+
+
 🚀 Funcionalidades
 ✅ Adicionar contato (via formulário)
 
@@ -15,6 +18,9 @@ O foco foi compreender como realizar operações assíncronas no front-end e man
 
 ✅ Interface simples e responsiva
 
+
+
+
 🛠 Tecnologias Utilizadas
 HTML5 → Estrutura da página
 
@@ -25,6 +31,9 @@ JavaScript → Lógica de funcionamento no front-end
 jQuery → Manipulação de DOM e eventos
 
 AJAX → Comunicação assíncrona entre front-end e back-end
+
+
+
 
 📚 O que foi estudado
 Durante a construção deste projeto, foram explorados os seguintes conceitos:
