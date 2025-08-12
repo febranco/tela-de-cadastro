@@ -1,0 +1,98 @@
+/* ======= Estilo global ======= */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* ======= Container ======= */
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* ======= Título ======= */
+h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 25px;
+}
+
+/* ======= Formulário ======= */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, button {
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+}
+
+/* ======= Botões ======= */
+button {
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button.salvar {
+    background-color: #28a745;
+    color: white;
+}
+
+button.salvar:hover {
+    background-color: #218838;
+    transform: scale(1.03);
+}
+
+button.listar {
+    background-color: #17a2b8;
+    color: white;
+}
+
+button.listar:hover {
+    background-color: #138496;
+    transform: scale(1.03);
+}
+
+/* ======= Lista ======= */
+.lista {
+    margin-top: 25px;
+}
+
+.lista table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.lista th, .lista td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.lista th {
+    background-color: #007bff;
+    color: white;
+}
+
+.lista tr:hover {
+    background-color: #f1f1f1;
+}
